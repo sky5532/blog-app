@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.app h1 {
+  text-align: center;
+  color: #b3001b;
+}
+
+.post-form {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-form textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font: inherit;
+  resize: vertical;
+}
+
+.post-form textarea:focus {
+  outline: 2px solid #b3001b;
+  border-color: transparent;
+}
+
+.post-form button {
+  margin-top: 10px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #b3001b;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post-form button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.post {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.post p {
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+
+.post-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.post-actions button {
+  padding: 6px 14px;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.post-actions button:hover {
+  border-color: #b3001b;
+  color: #b3001b;
+}
+
+.post-actions button.liked {
+  color: #b3001b;
+  border-color: #b3001b;
+  background: #fff0f2;
+}
