@@ -2,6 +2,8 @@
 
 A Twitter-style blog application built with React and Vite.
 
+https://sky5532.github.io/blog-app/
+
 ## Features
 - Create a new post
 - Display all posts (newest first)
